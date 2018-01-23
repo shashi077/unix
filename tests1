@@ -1,0 +1,26 @@
+vim_filename.txt = creat new vimtext editor.
+mkdir_filename = these command to creation directory of newfolder in terminal.
+cd_filenmae = these to  open the file using directory
+vim editor here we have to mainly 2 modes:
+1.insert mode: here elements can be inserted usin g these mode by just clicking the insert button present in the keybord.
+2.command mode: to eneter command mode we need press esc key using these mode various modification and operation can  be perfomed there is particular key for performing specifce operation.
+list of keyword that are being used during command mode:
+X-keyword is to delete indival elements present in text editor.
+U-it is undo the text or to undo entire line.
+CRTL+R - redo works opposite of the undo.
+A- curser will move to the end of text.
+:wq -its save text and quit.
+:ql - its to trash all changes.
+dw- its to move cursor to the beginning of the word to delete that word.
+2w- to move the cursor two words forward.u
+3e- to move the cursor to the end of the third word forward.
+0(zero) to move to start of the line.
+d2w - which deletes 2 words number can be changed for deleting the number of consecutive words like d3w.
+dd to delete the line and 2dd to delete to line . number can be chaged for deleting the number of consective word.
+p- puts  the previously deleted text after the cursor (type dd to delete the line and store it in a vim register and p to put the line)
+r- it is rplace letter in word.
+ce- to change until the end of a word
+g- to move you to the bottom of the file.
+gg- to move you to the start of the file.
+% to find a matching},}, or}
+:s/old/new/g - here its replace the anyword with any other new word.                                                  
