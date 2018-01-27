@@ -1,0 +1,47 @@
+                                                                  SOME OF IMPORTANT UNIX COMMANDS
+ who - specife the user one who looged  on along with date and time of login. 
+command  who also used prefix along other variable keywords some these are noted below:
+-a, --all    using these variable or keyword same as -b -d --login -p -r -t -T -u can be performed.
+                             
+-b, --boot  time of last system boot.
+          
+-d, --dead  print dead processes or terimanted work along with real user and effective user
+             
+-H, --heading print line of column headings along with user login date and time.
+              
+--ips  print ips instead of hostnames. with --lookup, canonicalizes based on stored IP, if available, rather than stored hostname.
+
+ -l, --login  print system login processes.
+              
+
+ --lookup attempt to canonicalize hostnames via DNS.
+             
+-m   only hostname and user associated with stdin
+
+ -q, --count  all login names and number of users logged on
+             
+
+-r, --runlevel
+              print current runlevel
+
+-s, --short
+              print only name, line, and time (default)
+-u, --user    
+            who logged on along with different users.
+                 
+ here these some of simple command no prefix required by default we have $ we can direct access to  these command.
+ cal - opens calender.
+ uname - 
+       operating system name.
+ time - 
+      show system current time.
+ date - 
+      dispaly date.         
+bc - 
+    to perfome calculation using command.
+ 
+ ls- 
+     list of directory commands 0r shows list files present.
+man ls - 
+       user manual of list of directory command.   
+    
