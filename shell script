@@ -1,0 +1,33 @@
+                                             SOME OF THE FILTER COMMANDS AND SHELL PROGRAMMING
+sort only name of the file from existing file == cut -d , -f2   excel2.csv | grep -v Name |sort -n
+replace the name with student nam ==  tr  "Name" "Studentname" excel1.csv
+write a shell script to print only date and time from date == date "+%T %D "
+
+
+write a shell script to check whtere a number +ve or - ve ==  vim num.sh
+echo "Enter a no."
+read n
+if [ $n -gt 0 ]
+then
+        echo "The no. is positive"
+else
+        echo "the no. neagtive"
+fi
+
+
+write a shell script to print the students grade === vim result.sh
+echo " enter student marks "
+read n
+if [ $n -gt 90 ]
+then
+        echo " grade A "
+elif [ $n -gt 80 ]
+then
+        echo " grade b "
+elif [ $n -gt 70 ]
+then
+   echo " grade c"
+else
+     echo" grade d"
+fi
+
