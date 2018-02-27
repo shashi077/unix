@@ -1,0 +1,38 @@
+ FILE TEST
+
+if [ -r $date]
+
+then
+        echo" file has read acess "
+else
+        echo" file doesnt have read acess"
+fi
+if [ -w $date]
+then
+        echo " file has write permission"
+else
+        echo" file has dosent write permission"
+
+fi
+if [ -x $date]
+then
+        echo" file has execution permission"
+else
+        echo"file doesnt have execution permission"
+fi
+
+2.STRING TEST 
+$a="abc"
+$b="abc"
+$a="abc"
+$b="cde"
+f [" $a = $b "]
+> then
+> echo " a = b : a is equal to b "
+> else
+> echo " a = b : a is not equal to b "
+> fi
+[ abc = cde ]: command not found
+ a = b : a is not equal to b 
+
+
