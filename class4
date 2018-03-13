@@ -1,0 +1,24 @@
+Q1) Sort only name field from excel2.csv
+-->  cut -d , -f 2 CSE.csv|sort
+shreyas
+venktesha
+shashank 
+yogi
+kishor
+
+Q2) Replace Name with student's Name
+--> cut -d , -f 2 excel2.csv | head -n 1 | tr ["Name"] ["Stud"] 
+Stud
+Q3) To print only date and time from date
+--> date=`date +"%D %T"`
+echo "$date"
+Q4) To check whether the given number is positive or negative
+--> echo "Enter a number"
+read x
+if 
+        [ $x -gt 0 ]
+then echo "The number is positive."
+elif [ $x -lt 0 ]
+then echo "It is negative"
+else echo "It is zero"
+fi
