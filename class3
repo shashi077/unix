@@ -1,0 +1,72 @@
+Commands used:
+$cal: Displays the calender of the particular month:
+ January 2018      
+ Su Mo Tu We Th Fr Sa  
+     1  2  3  4  5  6  
+  7  8  9 10 11 12 13  
+ 14 15 16 17 18 19 20  
+ 21 22 23 24 25 26 27  
+ 28 29 30 31      
+
+$who --short : Print only user name and time: 
+ user     tt0y2         2018-01-27 09:19 (:0)
+ cs2016b120 tty3         2018-01-27 10:51 (/dev/tty3)
+$who -u:Displays the users logged in 
+ user     tty2         2018-01-27 09:19 01:58        1364 (:0)
+ cs2016b120 tty3         2018-01-27 10:51 01:58        3976 (/dev/tty3)
+$uname : Displays name of the operating system
+ Linux
+$echo $SHELL: Displays the shell name
+ /bin/bash
+$who --ips: Prints ips instead of the host names.
+user     tty2         2018-01-27 09:19 (:0)
+cs2016b120 tty3         2018-01-27 10:51 (/dev/tty3)
+$who -q: Displays the users logged in and counts the numberof users logged in.
+ user cs2016b120
+ # users=2
+
+$who  --boot: time of last system boot.
+         system boot  2018-01-27 09:18
+$who -H: Prints the heading
+ NAME     LINE         TIME             COMMENT
+user     tty2         2018-01-27 09:19 (:0)
+cs2016b120 tty3         2018-01-27 10:51 (/dev/tty3)
+$who ls -l: Prints the author of each file.
+total 12
+ -rw-r--r-- 1 cs2016b120 cs2016b120  252 Jan 23 14:35 3d
+ -rw-r--r-- 1 cs2016b120 cs2016b120 1255 Jan 27 10:55 achal.txt
+ -rw-r--r-- 1 cs2016b120 cs2016b120 1185 Jan 27 12:00 ls2.txt
+  
+$cat CSE.csv: opens files
+Roll No,USN,Name
+68,16UG08068,Yogendhar
+69,16UG08069,Achal
+70,16UG08070,Hitesh
+48,16UG08048,Sourav
+32,16UG08032,Pranav
+71,16UG08071,Janardhan
+72,16UG08072,Kishor
+25,16UG08025,Rashid
+10,16UG08010,Gaurav
+$head -n 4 CSE.csv: Prints the first four fields:
+Roll No,USN,Name
+68,16UG08068,Yogendhar
+69,16UG08069,Achal
+70,16UG08070,Hitesh
+$ tail -n 5 CSE.csv
+32,16UG08032,Pranav
+71,16UG08071,Janardhan
+72,16UG08072,Kishor
+25,16UG08025,Rashid
+10,16UG08010,Gaurav
+ sort -r CSE.csv
+Roll No,USN,Name
+72,16UG08072,Kishor
+71,16UG08071,Janardhan
+70,16UG08070,Hitesh
+69,16UG08069,Achal
+68,16UG08068,Yogendhar
+48,16UG08048,Sourav
+32,16UG08032,Pranav
+25,16UG08025,Rashid
+10,16UG08010,Gaurav
