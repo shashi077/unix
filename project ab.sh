@@ -20,9 +20,9 @@ printf "ref_string \t\tpage frames\n"
 for (( i=1; i<=$n; i++ )) 
 do
 #  echo ${a[i]}
-printf "${a[$i]} ";
-avail=0
-for (( k=0; k<$no; k++ ))
+     printf " ${a[$i]} ";
+     avail=0
+    for (( k=0; k<$no; k++ ))
   do
   if [ "${frame[$k]}" == "${a[$i]}" ]
       then 
@@ -30,12 +30,12 @@ for (( k=0; k<$no; k++ ))
     fi
              if [ $avail == 0 ]
              then 
-               1=${a[$i]}
-        #echo $1 
-                frame[j]=$1
-        j= ` expr $j + 1 `
-        j= ` expr $j % $no `
-        count= ` expr $count + 1 `
+               l=${a[$i]}
+        #echo $l 
+                frame[j]=$l
+        j=  ` expr $j + 1 `
+        j=  ` expr $j % $no `
+        count=  ` expr $count + 1 `
              for (( k=0; k<$no; k++ ))
         do
              printf "\t\t${frame[k]}"
