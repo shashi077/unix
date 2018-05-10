@@ -33,9 +33,9 @@ for (( k=0; k<$no; k++ ))
                1=${a[$i]}
         #echo $1 
                 frame[j]=$1
-        j= ' expr $j + 1 '
-        j= ' expr $j % $no '
-        count= ' expr $count + 1 '
+        j= ` expr $j + 1 `
+        j= ` expr $j % $no `
+        count= ` expr $count + 1 `
              for (( k=0; k<$no; k++ ))
         do
              printf "\t\t${frame[k]}"
