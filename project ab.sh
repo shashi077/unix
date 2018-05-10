@@ -20,7 +20,7 @@ printf "ref_string \t\tpage frames\n"
 for (( i=1; i<=$n; i++ )) 
 do
 #  echo ${a[i]}
-printf "${a[i]} ";
+printf "${a[$i]} ";
 avail=0
 for (( k=0; k<$no; k++ ))
   do
@@ -38,7 +38,7 @@ for (( k=0; k<$no; k++ ))
         count= ' expr $count + 1 '
              for (( k=0; k<$no; k++ ))
         do
-             printf "\t\$ts{frame[k]}"
+             printf "\t\t${frame[k]}"
         done 
         fi 
         
