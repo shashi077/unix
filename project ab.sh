@@ -2,7 +2,7 @@
 count=0
 echo "enter the number of pages"
 read n
-echo "eneter the page number"
+echo "enter the page number"
 for (( i=1; i<=$n; i++ ))
 do
 read a[i];
